@@ -4,7 +4,7 @@ export default StyleSheet.create({
 	screenOverlay: {
 		height: Dimensions.get("window").height,
 		backgroundColor: "black",
-		opacity: 0.8
+		opacity: 0.95
 	},
 	dialogPrompt: {
 		...Platform.select({
